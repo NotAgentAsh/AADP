@@ -1,1 +1,75 @@
-# AADP
+AADP – AI Aircraft Design & Performance
+
+AADP (AI Aircraft Design & Performance) is a Python-based aviation engineering and aircraft analysis project focused on simulating how aircraft perform under different conditions using real-world physics principles.
+
+The long-term goal of AADP is to develop a virtual wind tunnel environment where users can test aircraft designs, analyze performance characteristics, study atmospheric effects, and better understand the science behind flight.
+
+Current Features
+
+Physics Engine
+
+* Aircraft motion simulation
+* Thrust-based acceleration calculations
+* Velocity and position tracking
+* Mass-dependent physics modelling
+* Real-time state updates
+
+Atmospheric Modelling
+
+* Air density calculations
+* Altitude-based environmental effects
+* Foundation for weather-dependent aircraft behaviour
+
+Aircraft State System
+
+* Centralized aircraft data management
+* Position, velocity, and acceleration storage
+* Expandable architecture for future aircraft systems
+
+Weather & Globe Framework
+
+* Global environment architecture
+* Weather simulation framework
+* Preparation for environmental interaction with aircraft physics
+
+Current Development Focus
+
+The current development cycle focuses on integrating the Weather and Globe systems directly into the Physics Engine.
+
+This will allow atmospheric conditions to influence aircraft performance calculations and create a more realistic simulation environment. The architecture is also being designed to support future integration with live weather APIs.
+
+Planned Features
+
+Virtual Wind Tunnel
+
+* Aircraft design testing
+* Environmental performance analysis
+* Comparison of different aircraft configurations
+* Aerodynamic experimentation
+
+Advanced Flight Physics
+
+* Lift generation
+* Drag modelling
+* Flap mechanics
+* Control surface simulation
+* Improved aerodynamic calculations
+
+Weather Simulation
+
+* Wind effects
+* Temperature variation
+* Air pressure systems
+* Dynamic weather conditions
+* Real-world weather API integration
+
+AeroMind AI
+
+* Aviation learning assistant
+* Aircraft performance explanations
+* Physics concept guidance
+* Design feedback and recommendations
+
+Project Vision
+
+AADP aims to combine aviation, physics, software engineering, and artificial intelligence into a single educational platform. By providing realistic aircraft performance analysis and eventually a virtual wind tunnel environment, the project seeks to make aerospace concepts more accessible to students, enthusiasts, and aspiring engineers.
