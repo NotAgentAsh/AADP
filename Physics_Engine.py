@@ -24,7 +24,7 @@ class PhysicsEngine:
 
         self.vx = 0.0
         self.vy = 0.0
-        self.vz = 0.0
+        self.vz = 0.0 
 
         self.pitch = 0.0
         self.roll = 0.0
@@ -86,7 +86,7 @@ class PhysicsEngine:
         if speed < 0.1:
             speed = 0.1
 
-        side_slip = math.atan2(air_vz, speed)
+        side_slip = math.atan2(air_vz, speed) # math.atan2(y, x) is a trigonometric function that calculates the angle thetha in  radians
 
         rho = Globe.density(self.y)
         gravity = Globe.gravity(self.y)
@@ -97,7 +97,7 @@ class PhysicsEngine:
         ####################################################
         # NONLINEAR STALL MODEL
         ####################################################
-        stall_angle = math.radians(15)
+        stall_angle = self.state.get_stall_angle_rad()
 
         if abs(aoa) < stall_angle:
             CL = self.state.CL0 + self.state.CL_alpha * aoa

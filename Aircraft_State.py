@@ -167,8 +167,7 @@ class AircraftState:
             "max_g": self.max_g 
          }
     def validate(self):
-
-     required = [
+        required = [
         "wing_area",
         "wingspan",
         "empty_mass",
@@ -183,11 +182,20 @@ class AircraftState:
         "Izz"
         ]
 
-     for field in required:
-        if getattr(self, field) is None:
+        for field in required:
+         if getattr(self, field) is None:
             raise ValueError(
-                f"Missing aircraft parameter: {field}"
-            )
+                f"Missing aircraft parameter: {field}")
+    def get_stall_angle_rad(self):
+        #Calculates critical stall angle of attack in radians.
+
+         if self.CL_alpha is not None and self.CL_alpha > 0:
+
+            return(self.CL_max - self.CL0) / self.CL_alpha
+            return 0.2618  # Safe default fallback (15 degrees in radians)
+
+
+    
 
     ####################################################
     # LOAD FROM DICTIONARY
