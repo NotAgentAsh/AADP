@@ -75,9 +75,9 @@ Project Vision
 AADP aims to combine aviation, physics, software engineering, and artificial intelligence into a single educational platform. By providing realistic aircraft performance analysis and eventually a virtual wind tunnel environment, the project seeks to make aerospace concepts more accessible to students, enthusiasts, and aspiring engineers.
 
 
-PIPELINE FOR AADP
+PIPELINE FOR AADP----------------------------------------------------------------
 1.User enters aircraft values from AircraftConfig.py
-2.THe values go to PhysicsEngine.
+2.The values go to PhysicsEngine.
 3.The engine stores the values and calculates physics based on the given values and ISA based atmospherics.
 (the data stays there till the user chooses to save data or loads a new instance of AADP)
 4.The Engine then gives the values directly to Python coded front end which shows the aircraft.
