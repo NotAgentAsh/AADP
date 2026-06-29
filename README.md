@@ -77,7 +77,10 @@ AADP aims to combine aviation, physics, software engineering, and artificial int
 
 PIPELINE FOR AADP----------------------------------------------------------------
 1.User enters aircraft values from AircraftConfig.py
+
 2.The values go to PhysicsEngine.
+
 3.The engine stores the values and calculates physics based on the given values and ISA based atmospherics.
 (the data stays there till the user chooses to save data or loads a new instance of AADP)
+
 4.The Engine then gives the values directly to Python coded front end which shows the aircraft.
