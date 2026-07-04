@@ -2,3 +2,11 @@ Physics_Engine.py
 AADP(Old).py
 Old Model/
 Old Models/
+.vscode/
+Physics_Engine.dSYM/
+/build
+/CMakeLists.txt
+CMakePresets.json
+.gitignore
+.DS_Store
+Clang 21.0.0 arm64-apple-darwin27.0.0
