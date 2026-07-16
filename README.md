@@ -4,7 +4,7 @@ AADP (AI Aircraft Design & Performance) is a Python-based aviation engineering a
 
 The long-term goal of AADP is to develop a virtual wind tunnel environment where users can test aircraft designs, analyze performance characteristics, study atmospheric effects, and better understand the science behind flight.
 
-AADP v0.1.0-alpha
+AADP v1-alpha
 
 Features:
 - Aircraft JSON loader no ui present as of now
