@@ -1,26 +1,29 @@
 {
-  "aircraft_name": "777-300ER",
+    "aircraft_name": "Boeing 777-300ER",
 
-  "max_engine_thrust": 512000,
-  "engine_spool_rate": 0.12,
-  "fuel_burn_rate": 2.5,
+    "max_engine_thrust": 512000,
+    "engine_spool_rate": 0.12,
+    "fuel_burn_rate": 2.55,
 
-  "max_flap_angle": 30, 
-  "max_g": 2.5,
-  "max_airspeed": null,
-  "max_altitude": 13100,
-  "max_aoa": 15,
-  "Cl_alpha": null,
+    "max_flap_angle": 30,
+    "max_g": 2.5,
+    "max_airspeed": 495,
+    "max_altitude": 13100,
+    "max_aoa": 15,
+    "Cl_alpha": 5.8,
 
-  "max_empty_mass": 167829,
-  "max_fuel_mass": 145538,
-  "max_payload_mass": 68400,
+    "max_empty_mass": 167829,
+    "max_fuel_mass": 145538,
+    "max_payload_mass": 68400,
 
-  "wing_area":  436.8,
-  "wingspan": 64.8,
-  "length": 73.9,
+    "wing_area": 436.8,
+    "wingspan": 64.80,
+    "length": 73.90,
 
-  "cg": 0.25,
+    "cg": 0.25,
 
-  "wing_shape": "tapered"
+    "wing_shape": "tapered",
+
+    "root_chord": 13.30,
+    "tip_chord": 2.60
 }
