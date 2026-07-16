@@ -1,0 +1,36 @@
+name: Build Windows Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build AADP
+        run: |
+          pyinstaller AADP.spec
+
+      - name: Zip build
+        run: |
+          Compress-Archive -Path dist\* -DestinationPath AADP-Windows.zip
+
+      - name: Upload Windows build
+        uses: actions/upload-artifact@v4
+        with:
+          name: AADP-Windows
+          path: AADP-Windows.zip
