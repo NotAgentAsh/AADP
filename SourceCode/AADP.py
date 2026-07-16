@@ -20,8 +20,11 @@ import platform
 import subprocess
 import json
 import numpy as np
+
 PROJECT_FOLDER = Path(__file__).parent #Loads  main AADP folder as my main folder.
+
 PRESETS_FOLDER = PROJECT_FOLDER / "Presets"
+
 # Making Buttons for Presets
 preset_buttons = []
 
