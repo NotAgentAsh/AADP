@@ -7,8 +7,8 @@ CMakePresets.json
 .gitignore
 .DS_Store
 Clang 21.0.0 arm64-apple-darwin27.0.0
-AADP.spec
 AADP.Venv
 build
 dist
 Releases
+AADP.spec
