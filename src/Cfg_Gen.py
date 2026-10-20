@@ -1,0 +1,1 @@
+# CFG is the settings file thats fed to SU2 iots bascially a text file with stuff defined

@@ -1,0 +1,36 @@
+{
+    "aircraft_name": "Boeing 777-300ER",
+
+    "engine_name": "GE90-115B",
+    "engine_count": 2,
+
+    "afterburner": false,
+    "reverse_thrust": true,
+
+    "max_flap_angle": 30,
+    "max_g": 2.5,
+    "max_airspeed": 495,
+    "max_altitude": 13100,
+    "max_aoa": 15,
+    "Cl_alpha": 5.8,
+
+    "max_empty_mass": 167829,
+    "max_fuel_mass": 145538,
+    "max_payload_mass": 68400,
+
+    "wing_area": 436.8,
+    "wingspan": 64.8,
+    "length": 73.9,
+
+    "cg": 0.25,
+
+    "wing_shape": "tapered",
+
+    "root_chord": 13.3,
+    "tip_chord": 2.6,
+
+    "nose_to_tail_axis": "x",
+    "towards_nose": "positive",
+    "height_axis": "z",
+    "towards_up": "positive"
+}

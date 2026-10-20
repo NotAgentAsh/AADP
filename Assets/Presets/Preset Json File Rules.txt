@@ -1,0 +1,50 @@
+AADP Aircraft JSON Field Units
+
+Use SI units unless otherwise noted.
+
+  -----------------------------------------------------------------------
+  Field                               Unit / Expected Value
+  ----------------------------------- -----------------------------------
+  aircraft_name                       String (e.g. "777-300ER")
+
+  max_engine_thrust                   Newtons (N), per engine
+
+  engine_spool_rate                   s⁻¹ (1/second)
+
+  fuel_burn_rate                      kg/s per engine
+
+  max_flap_angle                      Degrees (°)
+
+  max_g                               g (load factor)
+
+  max_airspeed                        m/s
+
+  max_altitude                        meters (m)
+
+  max_aoa                             Degrees (°)
+
+  Cl_alpha                            per radian (rad⁻¹)
+
+  max_empty_mass                      kilograms (kg)
+
+  max_fuel_mass                       kilograms (kg)
+
+  max_payload_mass                    kilograms (kg)
+
+  wing_area                           square meters (m²)
+
+  wingspan                            meters (m)
+
+  length                              meters (m)
+
+  cg                                  Fraction of Mean Aerodynamic Chord
+                                      (0.0–1.0), e.g. 0.25 = 25% MAC
+
+  wing_shape                          String (e.g. "rectangular" or
+                                      "tapered")
+  -----------------------------------------------------------------------
+
+Notes: - Store all numeric values as JSON numbers (not strings). - Use
+null for unknown values while building an aircraft database. - Keep all
+distances in meters, masses in kilograms, forces in Newtons, and speeds
+in meters per second.
